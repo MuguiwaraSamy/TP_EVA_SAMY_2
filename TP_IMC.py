@@ -16,6 +16,6 @@ def indice_de_masse_corporelle(weight, height): # creation de la focntion pour c
     return imc
 
 # je calcule mon IMC avec mon poids et ma taille SAMY K
-weight = 100  # poids en kg
+weight = 90  # poids en kg
 height = 1.80  # taille en m
 indice_de_masse_corporelle(weight, height)  # appel de la fonction 
