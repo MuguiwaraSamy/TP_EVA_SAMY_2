@@ -60,3 +60,26 @@ print("Size of c_view:", sys.getsizeof(c_view), "bytes")
 
 print("shared memory of c_copy:", np.shares_memory(c, c_copy))
 print("shared memory of c_view:", np.shares_memory(c, c_view))
+
+
+#autres exercice
+
+import numpy as np
+
+a = np.arange(10)
+print("a =", a)
+
+#  vérification sur le petit array
+a = np.arange(10)
+b = a[2:5]
+b[0] = 999
+print("apres modif de b : a =", a, " | shares_memory(a,b) =", np.shares_memory(a, b))
+
+a = np.arange(10)
+c = a[a > 5]
+c[0] = 999
+print("apres modif de c : a =", a, " | shares_memory(a,c) =", np.shares_memory(a, c))
+
+a = np.arange(10)
+d = a[[1, 2, 3]]
+print("shares_memory(a,d) =", np.shares_memory(a, d))
