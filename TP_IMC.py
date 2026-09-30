@@ -19,3 +19,9 @@ def indice_de_masse_corporelle(weight, height): # creation de la focntion pour c
 weight = 90  # poids en kg
 height = 1.80  # taille en m
 indice_de_masse_corporelle(weight, height)  # appel de la fonction 
+
+# Eva's part I'm trying a limit condition to see 
+
+w = 0.1
+h= 190
+indice_de_masse_corporelle(w,h)
