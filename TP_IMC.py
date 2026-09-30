@@ -25,3 +25,9 @@ indice_de_masse_corporelle(weight, height)  # appel de la fonction
 w = 0.1
 h= 190
 indice_de_masse_corporelle(w,h)
+
+#On essaye de calcculer d'autres IMC
+
+w=70
+h= 175
+indice_de_masse_corporelle(w,h)
